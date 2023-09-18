@@ -1,0 +1,202 @@
+body{
+    background-image: url(../images/img01.jpg);
+    background-repeat: repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navegador{
+    background-image: url(../images/img02.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.list__nav{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.list__link{
+    text-decoration: none;
+    color: gray;
+}
+
+.list__link:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.cajaContenedora{
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Parte del header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buscador{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+.buscador::placeholder{
+    color: gray;
+}
+
+.buscador:focus{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+
+/* Página como tal */
+.contenido__pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.title__div{
+    background-image: url(../images/img03.jpg);
+    padding: 5px;
+    font-weight: normal;
+}
+
+/* Sectiones a la izquierda de la página */
+.contenido__pagina-izquierda{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.div__izquierda{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido__pagina-text{
+    color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img__pagina{
+    width: 480px;
+    height: 200px;
+}
+
+.img__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: right;
+    color: gray;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: red;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+/* Secciones a la derecha de la página */
+.contenido__pagina-derecha{
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.div__derecha{
+    display: flex;
+    flex-direction: column;
+}
+
+.list__link-pagina{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.list__link-pagina:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+/* Footer de la página, que ocupa el 100% de esta */
+
+.footer__pagina{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.779);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer__container{
+    width: 1200px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div__footer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 230px;
+    justify-content: space-around;
+}
+
+.title__footer{
+    border-bottom: 1px solid gray;
+}
+
+.list__footer{
+    list-style: none;
+    margin-top: 0;
+}
+
+.list__footer-link{
+    color: gray;
+    text-decoration: underline;
+}
+
+.list__footer-link:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
