@@ -1,0 +1,183 @@
+body {
+  background: #404347 url(../imagenes/fondo.gif) repeat-x;
+  font-variant: small-caps;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: arial;
+  color: #60C3DB;
+  box-shadow: 1px 1px 200px #60C3DB;
+  border-radius: 0.25rem;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  border-bottom: 1px solid #60C3DB;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section{
+  /* width: 100%; */
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor de la imagen grande */
+.section__imagen-grande{
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* La imagen grande en sí, para cambiar su tamaño */
+.section__img-grande{
+  width: 100%;
+}
+
+/* Contenedor de la imagen pequeña */
+.section__imagen-peque{
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Imagen pequeña en sí, para cambiar su tamaño */
+.section__img-peque{
+  width: 400px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+/* Seeción de las tarjetas con dos articles uno para tarjeta */
+.cards{
+  display: flex;
+  border: 1px solid red;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card__img-cocina{
+  width: 200px;
+  height: 240px;
+}
+
+
+.card__img-edificio{
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+}
+
+
+.cards-flex{
+  display: flex;
+}
+
+.card-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* El tamaño de lasimá genes que se encuentran en las 
+  cajas de  difernte estilo flex */
+.card-flex__img{
+  width: 250px;
+  height: 180px;
+  padding: 10px;
+}
+
+.caja-flex{
+  /* border: 1px solid red; */
+  display: flex;
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+}
+
+.ejercicio1{
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.ejercicio2{
+  align-items: center;
+}
+
+.ejercicio3{
+  align-items: flex-end;
+}
+
+.ejercicio4{
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.ejercicio5{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ejercicio6{
+  flex-direction: column-reverse;
+}
+
+.ejercicio7{
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.ejercicio8{
+  flex-direction: row-reverse;
+}
+
+.ejercicio9{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ejercicio10{
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-end;
+}
