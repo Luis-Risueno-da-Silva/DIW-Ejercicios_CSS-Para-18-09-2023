@@ -1,0 +1,267 @@
+.caja-contenedora{
+    width: 1500px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(179, 174, 174, 0.194);
+    box-shadow: 2px 5px 23px -6px rgba(0,0,0,0.75);
+}
+
+/* Div que se encuentra en lo más alto de la página */
+.div__top{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div__top-title{
+    padding-left: 10px;
+}
+
+.div__top-search{
+    height: 30px;
+    margin-right: 30px;
+}
+
+.div__top-search:focus{
+    color: orange;
+}
+
+/* Nav de la página */
+.nav{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 40%;
+    justify-content: space-around;
+}
+
+.nav__list-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.primerLink{
+    color: red;
+}
+
+.nav__images{
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.nav__images-image{
+    width: 20px;
+    padding-left: 10px;
+}
+
+.nav__images-image:hover{
+    cursor: pointer;
+}
+/* ************************************************************************** */
+
+
+/* La página como tal */
+
+.contenido-pagina{
+    box-shadow: 2px 5px 23px -6px rgba(0,0,0,0.75);
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* Parte de la izquierda de la página */
+.parteIzquierda{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.riberaPhp{
+    background-color: rgba(222, 184, 135, 0.318);
+    padding: 10px;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.riberaPhp-article{
+    padding: 15px;
+}
+
+.title-article{
+    border-bottom: 1px solid black;
+}
+
+/* Parte en la que está escrita el código php */
+.riberaPhp-codigo-contenedor{
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.riberaPhp-codigo{
+    background-color: yellow;
+}
+/* ********************************************** */
+.footer{
+    background-color: rgba(128, 128, 128, 0.191);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.footer__links{
+    text-decoration: none;
+    color: gray;
+    text-align: right;
+    padding: 10px;
+}
+
+.footer__links:hover{
+    text-decoration: underline;
+}
+
+
+/* Cuando un artículo tiene a un lado texto y al otro una lista */
+.textoLista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.textoLista__texto{
+    width: 65%;
+}
+
+.textoLista__lista{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.lista__title{
+    margin-left: 20px;
+}
+
+/* Parte de la derecha de la página */
+.parteDerecha{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* border: 1px solid red; */
+}
+
+.images-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image{
+    width: 160px;
+    height: 160px;
+}
+
+
+/* Menús de la parte izquierda de la página */
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.menu__pequeño{
+    width: 300px;
+}
+
+.menu__title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.menu__list-link{
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.098);
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.menu__list-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* Footer de la página */
+.footer__pagina{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.footer__enlaces{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.footer__enlaces-menu{
+    width: 600px;
+    /* border: 1px solid red; */
+}
+
+.footer__enlaces-programacion{
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+.footer__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__list-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer__copy{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+RiberaPHP es un sistema de gestión de contenido basado en PHP y MySQL completamente gratuito para gestionar contenido web. Compuesto por un solo archivo, RiberaPHP es extremadamente liviano, fácil de instalar y fácil de usar a través de una interfaz web simple.
+
+Posted on April 11 , 2023 in Ribera News
+RiberaWeb es una plantilla CSS gratuita y totalmente compatible con los estándares dediseño. Esta plantilla gratuita se publica bajo una licencia Creative Commons Attributions 2.5, por lo que puede hacer lo que quiera con ella (incluso usarla comercialmente) siempre que mantenga intactos los enlaces en el pie de página. Aparte de eso, diviértete :)
+
+users.map (user => {
+let name = document.createElement("P");
+name.textContent = user.name;
+let surname = document.createElement("P");
+surname.textContent = user.surname;
+userdata.appendChild(name);
+userdata.appendChild(surname);
+)}
+
+Posted on April 20 , 2023 in Ribera News
+En informática, las hojas de estilo en cascada (CSS) utiliza para describir la presentación de un documento escrito en un lenguaje de marcado. Su aplicación más común es diseñar páginas web escritas en (HTML), pero el lenguaje se puede aplicar a cualquier tipo de documento XML, incluidos SVG y XUL. Las especificaciones CSS son mantenidas por el World Wide Web Consortium (W3C).
+
+CSS tiene varios niveles y perfiles. Cada nivel de CSS se basa en el anterior, por lo general agrega nuevas características y generalmente se denominan CSS1, CSS2 y también se habla de CSS3, aunque realmente no exista CSS3. Los perfiles suelen ser un subconjunto de no o más niveles de CSS creados para un dispositivo o interfaz de usuario en particular. Actualmente existen perfiles para dispositivos móviles, impresoras y televisores. Los perfiles no deben confundirse con los tipos de medios que se agregaron en CSS2.

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="caja-contenedora">
+
+    <!-- Título y barra de búsqueda -->
+    <div class="div__top">
+        <h1 class="div__top-title">Ribera News ...</h1>
+        <input type="search" placeholder="Buscar..." class="div__top-search">
+    </div>
+
+    <!-- Navegador de la página -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-link primerLink">Home</li>
+            <li class="nav__list-link">Gallery</li>
+            <li class="nav__list-link">Download</li>
+            <li class="nav__list-link">Community</li>
+            <li class="nav__list-link">About</li>
+            <li class="nav__list-link">Contact</li>
+        </ul>
+        <div class="nav__images">
+            <img src="./images/github.ico" class="nav__images-image">
+            <img src="./images/dropbox.ico" class="nav__images-image">
+            <img src="./images/google-drive.ico" class="nav__images-image">
+            <img src="./images/skype.ico" class="nav__images-image">
+            <img src="./images/vimeo.ico" class="nav__images-image">
+            <img src="./images/rss.ico" class="nav__images-image">
+        </div>
+    </nav>
+
+    <!-- Página en sí -->
+    <section class="contenido-pagina">
+
+
+        <!-- Parte de la izquierda -->
+        <article class="parteIzquierda">
+            <!-- Ribera php -->
+            <div class="riberaPhp">
+                <p class="riberaPhp-text">RiberaPHP es un sistema de gestión de contenido basado en PHP y MySQL
+                    completamente gratuito para
+                    gestionar contenido web. Compuesto por un solo archivo, RiberaPHP es extremadamente liviano, fácil
+                    de instalar y fácil de usar a través de una interfaz web simple.</p>
+                <p><a href="#" class="link">Descargar</a> | <a href="#" class="link">Leer más</a>
+                </p>
+            </div>
+
+            <!-- Primer árticulo -->
+            <div class="riberaPhp-article">
+                <h2 class="title-article">Webdesing</h2>
+                <p>Publicado el 9 de febrero de 2021 - <a href="#" class="link">Ribera Nwes</a></p>
+                <p><strong>RiberaWeb</strong> es una plantilla CSS gratuita y totalmente compatible con los estándares
+                    dediseño. Esta
+                    plantilla gratuita se publica bajo una licencia <a href="#" class="link">Creative Commons</a>
+                    Attributions 2.5, por lo que puede
+                    hacer lo que quiera con ella (incluso usarla comercialmente) siempre que mantenga intactos los
+                    enlaces en el pie de página. Aparte de eso, diviértete :)</p>
+                <!-- Parte de la página en la que hay escrito PHP -->
+                <div class="riberaPhp-codigo-contenedor">
+                    <code class="riberaPhp-codigo">users.map (user => {</code> <br>
+                    <code class="riberaPhp-codigo">let name = document.createElement("P");</code> <br>
+                    <code class="riberaPhp-codigo">name.textContent = user.name;</code> <br>
+                    <code class="riberaPhp-codigo">let surname = document.createElement("P");</code> <br>
+                    <code class="riberaPhp-codigo">surname.textContent = user.surname;</code> <br>
+                    <code class="riberaPhp-codigo">userdata.appendChild(name);</code> <br>
+                    <code class="riberaPhp-codigo">userdata.appendChild(surname);</code> <br>
+                    <code class="riberaPhp-codigo">)}</code> <br>
+                </div>
+                <footer class="footer"><a href="#" class="footer__links">Comments (5)</a></footer>
+            </div>
+
+            <!-- Segundo artículo -->
+            <div class="riberaPhp-article">
+                <h2 class="title-article">Cascading Style Sheets</h2>
+                <p>Publicado el 18 de enero de 2022 - <a href="#" class="link">Ribera News</a></p>
+
+                <!-- Texto a la izquierda y una lista a la derecha, todo en el mismo artículo -->
+                <div class="textoLista">
+                    <!-- Parte del texto -->
+                    <div class="textoLista__texto">
+                        <p>En informática, las hojas de estilo en cascada <a href="#" class="link">(CSS)</a> utiliza
+                            para describir la presentación
+                            de un documento escrito en un lenguaje de marcado. Su aplicación más común es diseñar
+                            páginas web escritas en <a href="#" class="link">(HTML)</a>, pero el lenguaje se puede
+                            aplicar a cualquier tipo de
+                            documento XML, incluidos SVG y XUL. Las especificaciones CSS son mantenidas por el World
+                            Wide Web Consortium <a href="#" class="link">(W3C)</a>.
+                        </p>
+                    </div>
+                    <!-- Parte de la lista ordenada -->
+                    <div class="textoLista__lista">
+                        <p class="lista__title"><strong>List example:</strong></p>
+                        <ol>
+                            <li>list line 1</li>
+                            <li>list line 2</li>
+                            <li>sublist line a</li>
+                            <li>sublist line b</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <p>CSS tiene varios niveles y perfiles. Cada nivel de CSS se basa en el anterior, por lo general agrega
+                    nuevas características y generalmente se denominan CSS1, CSS2 y también se habla de CSS3, aunque
+                    realmente no exista CSS3. Los perfiles suelen ser un subconjunto de no o más niveles de CSS creados
+                    para un dispositivo o interfaz de usuario en particular. Actualmente existen perfiles para
+                    dispositivos móviles, impresoras y televisores. Los perfiles no deben confundirse con los tipos de
+                    medios que se agregaron en CSS2.
+                </p>
+
+                <footer class="footer"><a href="#" class="footer__links">Comments (11)</a></footer>
+
+            </div>
+        </article>
+
+
+
+        <!-- Parte de la derecha -->
+        <article class="parteDerecha">
+
+            <!-- Contenedor de las imagenes que son las 3 las misma -->
+            <div class="images-container">
+                <img src="./images/sponsor.jpg" class="image">
+                <img src="./images/sponsor.jpg" class="image">
+                <img src="./images/sponsor.jpg" class="image">
+            </div>
+
+            <!-- Uno de los menús de la página -->
+            <div>
+                <h2 class="menu__title">Latest Articles</h2>
+                <ul>
+                    <li class="menu__list-link">Helpful Links for webdesigners</li>
+                    <li class="menu__list-link">XHTML and CSS Validator</li>
+                    <li class="menu__list-link">Free Photoshop Alternatives</li>
+                    <li class="menu__list-link">The noseque efect</li>
+                    <li class="menu__list-link">Free PSD Icons</li>
+                    <li class="menu__list-link">Creating Atractive Web Chats</li>
+                    <li class="menu__list-link">20 Cool Website Headers</li>
+                </ul>
+            </div>
+
+            <!-- Dos menús más pequeños en la misma línea -->
+            <div class="menu">
+                <!-- Uno de los menús -->
+                <div class="menu__pequeño">
+                    <h2 class="menu__title">Categorías</h2>
+                    <ul>
+                        <li class="menu__list-link">Home</li>
+                        <li class="menu__list-link">CSS</li>
+                        <li class="menu__list-link">HTML</li>
+                        <li class="menu__list-link">Java</li>
+                        <li class="menu__list-link">JavaScript</li>
+                        <li class="menu__list-link">Photoshop</li>
+                    </ul>
+                </div>
+                <!-- Otro de los menús -->
+                <div class="menu__pequeño">
+                    <h2 class="menu__title">Links</h2>
+                    <ul>
+                        <li class="menu__list-link">Home</li>
+                        <li class="menu__list-link">CSS</li>
+                        <li class="menu__list-link">HTML</li>
+                        <li class="menu__list-link">Java</li>
+                        <li class="menu__list-link">JavaScript</li>
+                        <li class="menu__list-link">Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Otro menú normal de la página -->
+            <div>
+                <h2 class="menu__title">Latest Articles</h2>
+                <ul>
+                    <li class="menu__list-link">Helpful Links for webdesigners</li>
+                    <li class="menu__list-link">XHTML and CSS Validator</li>
+                    <li class="menu__list-link">Free Photoshop Alternatives</li>
+                    <li class="menu__list-link">The noseque efect</li>
+                    <li class="menu__list-link">Free PSD Icons</li>
+                    <li class="menu__list-link">Creating Atractive Web Chats</li>
+                    <li class="menu__list-link">20 Cool Website Headers</li>
+                </ul>
+            </div>
+
+            <!-- Dos menús más pequeños en la misma línea -->
+            <div class="menu">
+                <!-- Uno de los menús -->
+                <div class="menu__pequeño">
+                    <h2 class="menu__title">Categorías</h2>
+                    <ul>
+                        <li class="menu__list-link">Home</li>
+                        <li class="menu__list-link">CSS</li>
+                        <li class="menu__list-link">HTML</li>
+                        <li class="menu__list-link">Java</li>
+                        <li class="menu__list-link">JavaScript</li>
+                        <li class="menu__list-link">Photoshop</li>
+                    </ul>
+                </div>
+                <!-- Otro de los menús -->
+                <div class="menu__pequeño">
+                    <h2 class="menu__title">Links</h2>
+                    <ul>
+                        <li class="menu__list-link">Home</li>
+                        <li class="menu__list-link">CSS</li>
+                        <li class="menu__list-link">HTML</li>
+                        <li class="menu__list-link">Java</li>
+                        <li class="menu__list-link">JavaScript</li>
+                        <li class="menu__list-link">Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- El footer de la página -->
+    <footer class="footer__pagina">
+        <!-- Parte de arriba, con los enlaces -->
+        <div class="footer__enlaces">
+            <!-- Los enlaces del Footer que son iguales al nav -->
+            <div class="footer__enlaces-menu">
+                <ul class="footer__list">
+                    <li class="footer__list-link">Home</li>
+                    <li class="footer__list-link">Gallery</li>
+                    <li class="footer__list-link">Download</li>
+                    <li class="footer__list-link">Community</li>
+                    <li class="footer__list-link">About</li>
+                    <li class="footer__list-link">Contact</li>
+                </ul>
+            </div>
+            <!-- Los enlaces del footer que son de programación -->
+            <div class="footer__enlaces-programacion">
+                <ul class="footer__list">
+                    <li class="footer__list-link">HTML</li>
+                    <li class="footer__list-link">CSS</li>
+                    <li class="footer__list-link">BEM</li>
+                    <li class="footer__list-link">Flex</li>
+                </ul>
+            </div>
+        </div>
+        <!-- ******************** -->
+
+        <!-- Footer copy -->
+        <div>
+            <p class="footer__copy">Ribera News - Departamento Informático - IES Ribera del Tajo</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
